@@ -6,9 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="16878341-c08f-4b3f-860d-0dc67db07582" name="Changes" comment="ADDED first person assets migrated from another project">
-      <change afterPath="$PROJECT_DIR$/Source/UE_CPP_BossMode_Prac/BMCharacter.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/UE_CPP_BossMode_Prac/BMCharacter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UE_CPP_BossMode_Prac.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/UE_CPP_BossMode_Prac.uproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UE_CPP_BossMode_Prac.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UE_CPP_BossMode_Prac.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UE_CPP_BossMode_Prac/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UE_CPP_BossMode_Prac/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/UE_CPP_BossMode_Prac/BMCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UE_CPP_BossMode_Prac/BMCharacter.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +162,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660544325239</updated>
-      <workItem from="1660544356914" duration="1674000" />
+      <workItem from="1660544356914" duration="1995000" />
     </task>
     <task id="LOCAL-00001" summary="ADDED first person assets migrated from another project">
       <created>1660617582867</created>

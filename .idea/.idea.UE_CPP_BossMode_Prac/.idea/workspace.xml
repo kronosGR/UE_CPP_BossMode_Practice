@@ -5,10 +5,9 @@
     <projectFile>Intermediate/ProjectFiles/UE_CPP_BossMode_Prac.vcxproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16878341-c08f-4b3f-860d-0dc67db07582" name="Changes" comment="ADDED first person assets migrated from another project">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.UE_CPP_BossMode_Prac.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UE_CPP_BossMode_Prac.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.UE_CPP_BossMode_Prac/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UE_CPP_BossMode_Prac/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/UE_CPP_BossMode_Prac/BMCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UE_CPP_BossMode_Prac/BMCharacter.cpp" afterDir="false" />
+    <list default="true" id="16878341-c08f-4b3f-860d-0dc67db07582" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Config/DefaultInput.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Config/HoloLens/HoloLensEngine.ini" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

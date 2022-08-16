@@ -5,13 +5,21 @@
     <projectFile>Intermediate/ProjectFiles/UE_CPP_BossMode_Prac.vcxproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="16878341-c08f-4b3f-860d-0dc67db07582" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.UE_CPP_BossMode_Prac/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UE_CPP_BossMode_Prac/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="16878341-c08f-4b3f-860d-0dc67db07582" name="Changes" comment="ADDED first person assets migrated from another project">
+      <change afterPath="$PROJECT_DIR$/Source/UE_CPP_BossMode_Prac/BMCharacter.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/UE_CPP_BossMode_Prac/BMCharacter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UE_CPP_BossMode_Prac.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/UE_CPP_BossMode_Prac.uproject" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2DNfAptIQSJ1MOefEmuJ60L9bkJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -154,8 +162,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660544325239</updated>
-      <workItem from="1660544356914" duration="1323000" />
+      <workItem from="1660544356914" duration="1674000" />
     </task>
+    <task id="LOCAL-00001" summary="ADDED first person assets migrated from another project">
+      <created>1660617582867</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660617582867</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,5 +193,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="ADDED first person assets migrated from another project" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADDED first person assets migrated from another project" />
   </component>
 </project>

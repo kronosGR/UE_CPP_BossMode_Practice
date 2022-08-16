@@ -7,7 +7,10 @@
 		{
 			"Name": "UE_CPP_BossMode_Prac",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
 		}
 	],
 	"Plugins": [

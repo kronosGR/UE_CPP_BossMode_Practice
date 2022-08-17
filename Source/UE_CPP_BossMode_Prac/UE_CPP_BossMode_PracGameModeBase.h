@@ -13,5 +13,6 @@ UCLASS()
 class UE_CPP_BOSSMODE_PRAC_API AUE_CPP_BossMode_PracGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
-	
+
+	AUE_CPP_BossMode_PracGameModeBase();
 };

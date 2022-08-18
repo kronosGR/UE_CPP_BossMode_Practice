@@ -34,6 +34,9 @@ ABMCharacter::ABMCharacter()
 
 	FPGunMesh->AttachToComponent(FPMesh, FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true),
 	                             TEXT("GripPoint"));
+
+	ProjSpawn = CreateDefaultSubobject<USceneComponent>(TEXT("ProjectileSpawn"));
+	ProjSpawn->AttachToComponent(FPGunMesh, FAttachmentTransformRules::KeepRelativeTransform);
 }
 
 // Called when the game starts or when spawned
@@ -68,6 +71,18 @@ void ABMCharacter::LookUpAtRate(float Rate)
 	AddControllerPitchInput(Rate * BaseLookUpRate * GetWorld()->GetDeltaSeconds());
 }
 
+void ABMCharacter::OnFire()
+{
+	if (ProjectileClass != nullptr)
+	{
+		if (GetWorld() != nullptr)
+		{
+			GetWorld()->SpawnActor<ABMProjectile>(ProjectileClass, ProjSpawn->GetComponentLocation(),
+			                                      ProjSpawn->GetComponentRotation());
+		}
+	}
+}
+
 // Called every frame
 void ABMCharacter::Tick(float DeltaTime)
 {
@@ -89,4 +104,5 @@ void ABMCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	PlayerInputComponent->BindAxis("TurnRate", this, &ABMCharacter::TurnAtRate);
 	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
 	PlayerInputComponent->BindAxis("LookUpRate", this, &ABMCharacter::LookUpAtRate);
+	PlayerInputComponent->BindAction("Fire",IE_Pressed, this, &ABMCharacter::OnFire);
 }

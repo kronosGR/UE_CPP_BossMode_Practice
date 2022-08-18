@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "BMProjectile.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/Character.h"
 #include "BMCharacter.generated.h"
@@ -37,6 +38,8 @@ protected:
 
 	void LookUpAtRate(float Rate);
 
+	void OnFire();
+
 public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -48,5 +51,11 @@ public:
 	float BaseTurnRate;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
-	float BaseLookUpRate;	
+	float BaseLookUpRate;
+
+	UPROPERTY(EditDefaultsOnly, Category=Projectile)
+	TSubclassOf<ABMProjectile> ProjectileClass;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category=Projectile)
+	USceneComponent* ProjSpawn;
 };

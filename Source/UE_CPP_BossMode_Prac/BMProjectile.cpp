@@ -42,6 +42,19 @@ void ABMProjectile::OnHit(UPrimitiveComponent* HitComponent, AActor* OtherActor,
                           FVector NormalImpulse,
                           const FHitResult& Hit)
 {
+	if(!OtherActor->GetClass()->IsChildOf(this->StaticClass()))
+	{
+		ProjCollision->SetCollisionProfileName(TEXT("NoCollision"));
+		ProjCollision->SetGenerateOverlapEvents(false);
+		ProjMesh->SetVisibility(false);
+
+		ProjParticle->Activate();
+		ProjParticle->DetachFromParent(true);
+	}
+}
+
+void ABMProjectile::OnDestroyedProjectile(AActor* Actor)
+{
 }
 
 // Called when the game starts or when spawned

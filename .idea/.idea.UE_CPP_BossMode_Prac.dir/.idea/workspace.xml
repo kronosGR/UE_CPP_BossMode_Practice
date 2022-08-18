@@ -4,10 +4,8 @@
     <projectFile>UE_CPP_BossMode_Prac.uproject</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3adcfc72-fa3f-4196-b1eb-cf1a45b09b5d" name="Changes" comment="added Projectile and its definitions">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.UE_CPP_BossMode_Prac.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UE_CPP_BossMode_Prac.dir/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3adcfc72-fa3f-4196-b1eb-cf1a45b09b5d" name="Changes" comment="implemented constructor">
       <change beforePath="$PROJECT_DIR$/Source/UE_CPP_BossMode_Prac/BMProjectile.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UE_CPP_BossMode_Prac/BMProjectile.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/UE_CPP_BossMode_Prac/BMProjectile.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UE_CPP_BossMode_Prac/BMProjectile.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1660544369950</updated>
       <workItem from="1660617669767" duration="6293000" />
-      <workItem from="1660800529733" duration="786000" />
+      <workItem from="1660800529733" duration="1107000" />
     </task>
     <task id="LOCAL-00001" summary="declared members and methods">
       <created>1660618086687</created>
@@ -152,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660709560963</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="implemented constructor">
+      <created>1660801384357</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1660801384357</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,7 +187,8 @@
     <MESSAGE value="set BP as defaultPawn" />
     <MESSAGE value="added crosshaid on HUD" />
     <MESSAGE value="added Projectile and its definitions" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Projectile and its definitions" />
+    <MESSAGE value="implemented constructor" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented constructor" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

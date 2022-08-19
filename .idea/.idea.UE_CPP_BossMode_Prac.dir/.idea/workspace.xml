@@ -4,11 +4,8 @@
     <projectFile>UE_CPP_BossMode_Prac.uproject</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3adcfc72-fa3f-4196-b1eb-cf1a45b09b5d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Source/UE_CPP_BossMode_Prac/BMBossCharacter.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/UE_CPP_BossMode_Prac/BMBossCharacter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.UE_CPP_BossMode_Prac.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UE_CPP_BossMode_Prac.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/UE_CPP_BossMode_Prac/UE_CPP_BossMode_Prac.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UE_CPP_BossMode_Prac/UE_CPP_BossMode_Prac.Build.cs" afterDir="false" />
+    <list default="true" id="3adcfc72-fa3f-4196-b1eb-cf1a45b09b5d" name="Changes" comment="implementation">
+      <change beforePath="$PROJECT_DIR$/Source/UE_CPP_BossMode_Prac/BMBossCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UE_CPP_BossMode_Prac/BMBossCharacter.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +16,11 @@
     <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Source/UE_CPP_BossMode_Prac/BMBossCharacter.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Source/UE_CPP_BossMode_Prac/BMBossCharacter.h" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/UE_CPP_BossMode_Prac/BMAIController.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/UE_CPP_BossMode_Prac/BMAIController.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/UE_CPP_BossMode_Prac/BMBossCharacter.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://F:/OneDrive/Documents/Unreal Projects/UE_CPP_BossMode_Prac/Source/UE_CPP_BossMode_Prac/BMBossCharacter.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/UE_CPP_BossMode_Prac/BMBossCharacter.h" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -101,6 +101,7 @@
       <workItem from="1660617669767" duration="6293000" />
       <workItem from="1660800529733" duration="2076000" />
       <workItem from="1660809513730" duration="1276000" />
+      <workItem from="1660881773937" duration="441000" />
     </task>
     <task id="LOCAL-00001" summary="declared members and methods">
       <created>1660618086687</created>
@@ -172,7 +173,21 @@
       <option name="project" value="LOCAL" />
       <updated>1660801653949</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="declared methods and members">
+      <created>1660881926883</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1660881926883</updated>
+    </task>
+    <task id="LOCAL-00012" summary="implementation">
+      <created>1660882062982</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1660882062982</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,7 +219,9 @@
     <MESSAGE value="added Projectile and its definitions" />
     <MESSAGE value="implemented constructor" />
     <MESSAGE value="implemented onHit" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented onHit" />
+    <MESSAGE value="declared methods and members" />
+    <MESSAGE value="implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementation" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

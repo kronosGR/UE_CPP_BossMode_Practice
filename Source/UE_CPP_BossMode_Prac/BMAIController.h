@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "AIController.h"
+#include "BehaviorTree/BehaviorTreeComponent.h"
 #include "BMAIController.generated.h"
 
 /**
@@ -17,7 +18,7 @@ class UE_CPP_BOSSMODE_PRAC_API ABMAIController : public AAIController
 
 public:
 	ABMAIController();
-	virtual void Possess(APawn* InPawn) override;
+	virtual void OnPossess(APawn* InPawn) override;
 
 	UBlackboardComponent* GetBlackboard();
 
@@ -26,5 +27,5 @@ protected:
 	UBlackboardComponent* BlackboardComponent;
 
 	UPROPERTY(BlueprintReadWrite, Category=Behavior)
-	UBlackboardComponent* BehaviorTreeComp;
+	UBehaviorTreeComponent* BehaviorTreeComp;
 };

@@ -4,9 +4,10 @@
     <projectFile>UE_CPP_BossMode_Prac.uproject</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3adcfc72-fa3f-4196-b1eb-cf1a45b09b5d" name="Changes" comment="added and declared members and methods">
-      <change beforePath="$PROJECT_DIR$/Source/UE_CPP_BossMode_Prac/BMAIController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UE_CPP_BossMode_Prac/BMAIController.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/UE_CPP_BossMode_Prac/BMAIController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UE_CPP_BossMode_Prac/BMAIController.h" afterDir="false" />
+    <list default="true" id="3adcfc72-fa3f-4196-b1eb-cf1a45b09b5d" name="Changes" comment="implementation">
+      <change afterPath="$PROJECT_DIR$/Content/BossBB.uasset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/BossBT.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UE_CPP_BossMode_Prac.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UE_CPP_BossMode_Prac.dir/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +18,7 @@
     <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://F:/OneDrive/Documents/Unreal Projects/UE_CPP_BossMode_Prac/Source/UE_CPP_BossMode_Prac/BMAIController.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/UE_CPP_BossMode_Prac/BMAIController.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/UE_CPP_BossMode_Prac/BMAIController.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/UE_CPP_BossMode_Prac/BMBossCharacter.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -102,7 +104,7 @@
       <workItem from="1660617669767" duration="6293000" />
       <workItem from="1660800529733" duration="2076000" />
       <workItem from="1660809513730" duration="1276000" />
-      <workItem from="1660881773937" duration="740000" />
+      <workItem from="1660881773937" duration="2658000" />
     </task>
     <task id="LOCAL-00001" summary="declared members and methods">
       <created>1660618086687</created>
@@ -195,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660882238567</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="implementation">
+      <created>1660882647780</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1660882647780</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,9 +237,9 @@
     <MESSAGE value="implemented constructor" />
     <MESSAGE value="implemented onHit" />
     <MESSAGE value="declared methods and members" />
-    <MESSAGE value="implementation" />
     <MESSAGE value="added and declared members and methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="added and declared members and methods" />
+    <MESSAGE value="implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementation" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

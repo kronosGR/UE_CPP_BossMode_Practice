@@ -4,9 +4,10 @@
     <projectFile>UE_CPP_BossMode_Prac.uproject</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3adcfc72-fa3f-4196-b1eb-cf1a45b09b5d" name="Changes" comment="added blackboard and blackboardtree">
-      <change afterPath="$PROJECT_DIR$/Content/BBMoteTo.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/BossBT.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BossBT.uasset" afterDir="false" />
+    <list default="true" id="3adcfc72-fa3f-4196-b1eb-cf1a45b09b5d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Source/UE_CPP_BossMode_Prac/BMAgroCheck.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/UE_CPP_BossMode_Prac/BMAgroCheck.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UE_CPP_BossMode_Prac.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UE_CPP_BossMode_Prac.dir/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +104,7 @@
       <workItem from="1660617669767" duration="6293000" />
       <workItem from="1660800529733" duration="2076000" />
       <workItem from="1660809513730" duration="1276000" />
-      <workItem from="1660881773937" duration="3268000" />
+      <workItem from="1660881773937" duration="4053000" />
     </task>
     <task id="LOCAL-00001" summary="declared members and methods">
       <created>1660618086687</created>
@@ -210,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660971785158</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="added custom task with BP">
+      <created>1660972656647</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1660972656647</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +254,8 @@
     <MESSAGE value="added and declared members and methods" />
     <MESSAGE value="implementation" />
     <MESSAGE value="added blackboard and blackboardtree" />
-    <option name="LAST_COMMIT_MESSAGE" value="added blackboard and blackboardtree" />
+    <MESSAGE value="added custom task with BP" />
+    <option name="LAST_COMMIT_MESSAGE" value="added custom task with BP" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

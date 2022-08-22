@@ -4,8 +4,8 @@
     <projectFile>UE_CPP_BossMode_Prac.uproject</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3adcfc72-fa3f-4196-b1eb-cf1a45b09b5d" name="Changes" comment="implemented Tick method">
-      <change beforePath="$PROJECT_DIR$/Content/BossBT.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BossBT.uasset" afterDir="false" />
+    <list default="true" id="3adcfc72-fa3f-4196-b1eb-cf1a45b09b5d" name="Changes" comment="added the service to BossBT">
+      <change afterPath="$PROJECT_DIR$/Content/FPBossCharacter.uasset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +103,7 @@
       <workItem from="1660800529733" duration="2076000" />
       <workItem from="1660809513730" duration="1276000" />
       <workItem from="1660881773937" duration="4053000" />
-      <workItem from="1661075185197" duration="2540000" />
+      <workItem from="1661075185197" duration="3013000" />
     </task>
     <task id="LOCAL-00001" summary="declared members and methods">
       <created>1660618086687</created>
@@ -238,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661140980988</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="added the service to BossBT">
+      <created>1661141096604</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1661141096604</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,7 +285,8 @@
     <MESSAGE value="declared methods" />
     <MESSAGE value="fix a bug on compilation" />
     <MESSAGE value="implemented Tick method" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented Tick method" />
+    <MESSAGE value="added the service to BossBT" />
+    <option name="LAST_COMMIT_MESSAGE" value="added the service to BossBT" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

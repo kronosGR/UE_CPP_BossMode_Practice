@@ -4,9 +4,8 @@
     <projectFile>UE_CPP_BossMode_Prac.uproject</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3adcfc72-fa3f-4196-b1eb-cf1a45b09b5d" name="Changes" comment="fix a bug on compilation">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.UE_CPP_BossMode_Prac.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UE_CPP_BossMode_Prac.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/UE_CPP_BossMode_Prac/BMAgroCheck.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/UE_CPP_BossMode_Prac/BMAgroCheck.cpp" afterDir="false" />
+    <list default="true" id="3adcfc72-fa3f-4196-b1eb-cf1a45b09b5d" name="Changes" comment="implemented Tick method">
+      <change beforePath="$PROJECT_DIR$/Content/BossBT.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BossBT.uasset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +18,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Source/UE_CPP_BossMode_Prac/BMAIController.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/UE_CPP_BossMode_Prac/BMAIController.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://F:/OneDrive/Documents/Unreal Projects/UE_CPP_BossMode_Prac/Source/UE_CPP_BossMode_Prac/BMAgroCheck.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://F:/OneDrive/Documents/Unreal Projects/UE_CPP_BossMode_Prac/Source/UE_CPP_BossMode_Prac/BMAgroCheck.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/UE_CPP_BossMode_Prac/BMBossCharacter.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/UE_CPP_BossMode_Prac/BMBossCharacter.h" root0="FORCE_HIGHLIGHTING" />
@@ -103,7 +103,7 @@
       <workItem from="1660800529733" duration="2076000" />
       <workItem from="1660809513730" duration="1276000" />
       <workItem from="1660881773937" duration="4053000" />
-      <workItem from="1661075185197" duration="2228000" />
+      <workItem from="1661075185197" duration="2540000" />
     </task>
     <task id="LOCAL-00001" summary="declared members and methods">
       <created>1660618086687</created>
@@ -231,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661075831319</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="implemented Tick method">
+      <created>1661140980988</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1661140980988</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +277,8 @@
     <MESSAGE value="added custom task with BP" />
     <MESSAGE value="declared methods" />
     <MESSAGE value="fix a bug on compilation" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix a bug on compilation" />
+    <MESSAGE value="implemented Tick method" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented Tick method" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
